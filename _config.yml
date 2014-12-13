@@ -1,16 +1,16 @@
 # Site settings
-title: 小 潇
-email: i.yx@foxmail.com
-description: "我有一碗酒，可以慰风尘"
-baseurl: ""
-url: "http://ixiao.com"
-twitter_username: iyanxiao
-github_username:  ixiao
-facebook_username:  闫潇
+title: Clean Blog
+email: your-email@yourdomain.com
+description: "Write your site description here. It will be used as your sites meta description as well!"
+baseurl: "/startbootstrap-clean-blog-jekyll"
+url: "http://yourdomain.com"
+twitter_username: SBootstrap
+github_username:  davidtmiller
+facebook_username:  IronSummitMedia
 
 # Build settings
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
-paginate: 10
+paginate: 5
 exclude: ["node_modules"]
