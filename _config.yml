@@ -1,0 +1,16 @@
+# Site settings
+title: 小 潇
+email: i.yx@foxmail.com
+description: "我有一碗酒，可以慰风尘"
+baseurl: ""
+url: "http://ixiao.com"
+twitter_username: iyanxiao
+github_username:  ixiao
+facebook_username:  闫潇
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 10
+exclude: ["node_modules"]
