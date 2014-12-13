@@ -12,5 +12,5 @@ facebook_username:  闫潇
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
-paginate: 6
+paginate: 10
 exclude: ["node_modules"]
