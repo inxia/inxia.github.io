@@ -215,7 +215,7 @@ hr.small {
 }
 .post-preview > a > .post-title {
   font-size: 30px;
-  margin-top: 30px;
+  margin-top: 15px;
   margin-bottom: 10px;
 }
 .post-preview > a > .post-subtitle {
@@ -227,7 +227,8 @@ hr.small {
   color: #808080;
   font-size: 18px;
   font-style: italic;
-  margin-top: 0;
+  /*margin-top: 0;*/
+  margin:10px 0;
 }
 .post-preview > .post-meta > a {
   text-decoration: none;
@@ -395,3 +396,17 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
+.row hr{margin:15px 0px;}
+@font-face{
+font-family: "glyphicons";
+font-weight: normal;
+font-style: normal;
+src: url('font/glyphicons-halflings-regular.eot'); /* IE9 Compat Modes */
+src: url('font/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('font/glyphicons-halflings-regular.woff') format('woff'), /* Modern Browsers */
+            url('font/glyphicons-halflings-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+            url('font/glyphicons-halflings-regular.svg#glyphicons') format('svg'); /* Legacy iOS */
+}
+/*h1{
+font-family: "glyphicons";
+}*/
