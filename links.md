@@ -2,7 +2,7 @@
 layout: page
 title: "Links"
 description: "My blog word."
-header-img: "img/z-bg.jpg"
+header-img: "img/y.jpg"
 ---
 
 ##网站
