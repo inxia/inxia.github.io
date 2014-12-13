@@ -1,7 +1,7 @@
 # Site settings
-title: Xiao Blog
+title: Xiao‘Blog
 email: i.yxl@foxmail.com
-description: "hello world!"
+description: "hello world!......."
 baseurl: 
 url: "http://ixiao.pw"
 twitter_username: iyanxiao
@@ -12,5 +12,5 @@ facebook_username:  闫潇
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
-paginate: 10
+paginate: 5
 exclude: ["node_modules"]
