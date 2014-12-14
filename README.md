@@ -1,24 +1,21 @@
-#Clean Blog by Start Bootstrap - Jekyll Version
+#Clean Blog 
 
 The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://startbootstrap.com/).
 
-###[View Live Demo &rarr;](http://ironsummitmedia.github.io/startbootstrap-clean-blog-jekyll/)
+###[Original blog demo &rarr;](http://ironsummitmedia.github.io/startbootstrap-clean-blog-jekyll/)
 
-## Before You Begin
 
-In the _config.yml file, the base URL is set to /startbootstrap-clean-blog-jekyll which is this themes gh-pages preview. It's recommended that you remove the base URL before working with this theme locally!
+## 如何学习Git语言并完成一个博客的配置呢
 
-It should look like this:
-`baseurl: ""`
+[我的Git学习之路](http://ixiao.pw/technology/2014/08/25/git-hub-studay/)
 
-## What's Included
+[个人博客攻略](http://beiyuu.com/github-pages/)
 
-A full Jekyll environment is included with this theme. If you have Jekyll installed, simply run `jekyll serve` in your command line and preview the build in your browser. You can use `jekyll serve --watch` to watch for changes in the source files as well.
+##说明
 
-A Grunt environment is also included. There are a number of tasks it performs like minification of the JavaScript, compiling of the LESS files, adding banners to keep the Apache 2.0 license intact, and watching for changes. Run the grunt default task by entering `grunt` into your command line which will build the files. You can use `grunt watch` if you are working on the JavaScript or the LESS.
+**我自己的这个博客从fork到完工前后历时三天，commit70次。
+**
 
-You can run `jekyll serve --watch` and `grunt watch` at the same time to watch for changes and then build them all at once.
+也从网上查阅了好多相关资料，在QQ群里求助他人，甚至还找相关前端方向的同学帮忙，虽然只是一点点的小细节，但由于是自己的东西，所以从来不愿意委曲求全。
 
-## Support
-
-Visit Clean Blog's template overview page on Start Bootstrap at http://startbootstrap.com/template-overviews/clean-blog/ and leave a comment, email feedback@startbootstrap.com, or open an issue here on GitHub for support.
+		不管怎么说，总算是完工了，也算是对自己的一种肯定吧。

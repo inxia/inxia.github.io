@@ -3,6 +3,7 @@ layout: page
 title: "关于我"
 description: "This is my story."
 header-img: "img/about-bg.jpg"
+
 ---
 
 iOS开发，目前正在学习中。     
