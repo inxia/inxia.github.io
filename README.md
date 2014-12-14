@@ -13,8 +13,8 @@ The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://
 
 ##说明
 
-**我自己的这个博客从fork到完工前后历时三天，commit70次。
-**
+__我自己的这个博客从fork到完工前后历时三天，commit70次。__
+
 
 也从网上查阅了好多相关资料，在QQ群里求助他人，甚至还找相关前端方向的同学帮忙，虽然只是一点点的小细节，但由于是自己的东西，所以从来不愿意委曲求全。
 
