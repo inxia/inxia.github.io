@@ -31,4 +31,4 @@ GitHub : [http://github.com/{{ site.github }}](http://github.com/{{ site.github 
 
 
 
-[![alt text](http://service.t.sina.com.cn/widget/qmd/2921289574/0edbbca7/1.png "新浪微博")](http://weibo.com/u/2921289574?s=6uyXnP)
+[![alt text](http://service.t.sina.com.cn/widget/qmd/2921289574/0edbbca7/1.png "新浪微博")](http://weibo.com/505501200)
