@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Links"
+title: "链接"
 description: "My blog word."
 header-img: "img/y.jpg"
 ---
