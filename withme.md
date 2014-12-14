@@ -7,11 +7,11 @@ header-img: "img/about-bg.jpg"
 
 iOS开发，目前正在学习中。     
 
-热爱apple，喜欢互联网，喜欢数码产品，github等。            
+热爱apple，喜欢互联网，喜欢数码产品，github。            
 
 古城西安人       
 
-偶尔微博，偶尔LOL。  
+有时知乎，有时大声笑。
 
 ---
 

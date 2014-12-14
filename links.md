@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "链接"
-description: "My blog word."
+description: "这里是我的一些个人收藏."
 header-img: "img/y.jpg"
 ---
 
@@ -11,6 +11,8 @@ header-img: "img/y.jpg"
 [Git 教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
 
 [Git pages博客](http://beiyuu.com)
+
+[iOS代码特效](http://www.code4app.com/)
 
 [Python 教程](http://www.chuanke.com/1819957-108330.html)
 
