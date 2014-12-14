@@ -2,6 +2,7 @@
 layout: post
 date: 2014-09-14 14:58:01
 title: 韩寒与郭敬明的十年--清华南都
+comments: yes
 categories:
 - life
 tags:

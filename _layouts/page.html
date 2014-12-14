@@ -2,6 +2,12 @@
 layout: default
 ---
 
+<section class="post">
+{{ content }}
+</section>
+{% if page.comments %}
+{% include comments.md %}
+{% endif %}
 <!-- Page Header -->
 <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{{ page.header-img }}')">
     <div class="container">
