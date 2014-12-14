@@ -1,6 +1,8 @@
 ---
-title: 分类
 layout: page
+title: "分类"
+description: "Have questions? I have answers (maybe)."
+header-img: "img/contact.jpg" 
 ---
 
 <div id='tag_cloud'>
