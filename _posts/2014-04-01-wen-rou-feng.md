@@ -6,7 +6,6 @@ categories:
 - life
 tags:
 - 文字
-<!--header-img: "img/a.png"-->
 
 ---
 
