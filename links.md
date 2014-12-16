@@ -33,4 +33,8 @@ header-img: "img/y.jpg"
 ##视频
 [漂亮mm的创意定格动画](http://v.youku.com/v_show/id_XMjc2ODc0MDg4.html)
 
+[你比你想象中更美丽](http://v.youku.com/v_show/id_XNTQ0NjM0NTg0.html)
+
+<embed src="http://player.youku.com/player.php/sid/XNTQ0NjM0NTg0/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+
 [学校扼杀创造力](http://swf.ws.126.net/openplayer/v02/-0-2_M7SP3QUET_M7SP3T0VE-vimg1_ws_126_net//image/snapshot_movie/2013/11/F/P/M9DPA9BFP-.swf)
