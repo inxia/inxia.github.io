@@ -35,6 +35,6 @@ header-img: "img/y.jpg"
 
 [你比你想象中更美丽](http://v.youku.com/v_show/id_XNTQ0NjM0NTg0.html)
 
-<embed src="http://player.youku.com/player.php/sid/XNTQ0NjM0NTg0/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+<iframe height=498 width=510 src="http://player.youku.com/embed/XNTQ0NjM0NTg0" frameborder=0 allowfullscreen></iframe>
 
 [学校扼杀创造力](http://swf.ws.126.net/openplayer/v02/-0-2_M7SP3QUET_M7SP3T0VE-vimg1_ws_126_net//image/snapshot_movie/2013/11/F/P/M9DPA9BFP-.swf)
