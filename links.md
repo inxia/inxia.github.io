@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "链接"
+title: "分享"
 description: "这里是我的一些个人收藏."
 header-img: "img/y.jpg"
 ---
