@@ -8,7 +8,7 @@ header-img: "img/y.jpg"
 *	[网站](#web)
 	*	[技术](#technology)
 	*	[生活](#life)
-*	[文章](#write)
+*	[文字](#write)
 *	[视频](#video)
 
 =============
@@ -31,8 +31,9 @@ header-img: "img/y.jpg"
 	*	[获取电脑hosts](http://serve.netsh.org/pub/gethosts.php)
 
 <h3 id="life">生活</h3>
-
-	*	[测试智商](http://iqtest.dk/main.swf)
+*	生活
+	* 	[测试智商](http://iqtest.dk/main.swf)
+	*	[下载电影](http://www.simplecd.me/)
 
 
 <h2 id="write">文字</h2>
@@ -58,12 +59,16 @@ header-img: "img/y.jpg"
 
 
 * *  *
-<center><embed src="http://player.youku.com/player.php/sid/XNTQ0NjM0NTg0/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"><center>
+<center><embed src="http://player.youku.com/player.php/sid/XNTQ0NjM0NTg0/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"><center/>
 * *  *
+
+
 
 *	[学校扼杀创造力](http://v.163.com/movie/2006/2/V/E/M7SP3QUET_M7SP3T0VE.html)
 
+
+
 * *  *
-<center><object width="640" height="360"><param name="movie" value="http://swf.ws.126.net/openplayer/v02/-0-2_M7SP3QUET_M7SP3T0VE-vimg1_ws_126_net//image/snapshot_movie/2013/11/F/P/M9DPA9BFP-.swf"></param><param name="allowScriptAccess" value="always"></param><param name="wmode" value="transparent"></param><embed src="http://swf.ws.126.net/openplayer/v02/-0-2_M7SP3QUET_M7SP3T0VE-vimg1_ws_126_net//image/snapshot_movie/2013/11/F/P/M9DPA9BFP-.swf" type="application/x-shockwave-flash" width="640" height="360" allowFullScreen="true" wmode="transparent" allowScriptAccess="always"></embed></object><center>
+<center><object width="640" height="360"><param name="movie" value="http://swf.ws.126.net/openplayer/v02/-0-2_M7SP3QUET_M7SP3T0VE-vimg1_ws_126_net//image/snapshot_movie/2013/11/F/P/M9DPA9BFP-.swf"></param><param name="allowScriptAccess" value="always"></param><param name="wmode" value="transparent"></param><embed src="http://swf.ws.126.net/openplayer/v02/-0-2_M7SP3QUET_M7SP3T0VE-vimg1_ws_126_net//image/snapshot_movie/2013/11/F/P/M9DPA9BFP-.swf" type="application/x-shockwave-flash" width="640" height="360" allowFullScreen="true" wmode="transparent" allowScriptAccess="always"></embed></object><center/>
 *  *  *
 
