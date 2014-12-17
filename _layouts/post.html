@@ -29,7 +29,7 @@ layout: default
 
                 <hr>
 
-                <ul class="pager">
+                <!-- <ul class="pager">
                     {% if page.previous.url %}
                     <li class="previous">
                         <a href="{{ site.baseurl }}/{{page.previous.url}}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a> 
@@ -40,8 +40,19 @@ layout: default
                         <a href="{{ site.baseurl }}/{{page.next.url}}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
                     </li>
                     {% endif %} 
+                </ul> -->
+                <ul class="pager">
+                    {% if page.previous.url %}
+                    <li class="previous">
+                        <a href="http://ixiao.pw/{{page.previous.url}}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a> 
+                    </li>
+                    {% endif %} 
+                    {% if page.next.url %}
+                    <li class="next">
+                        <a href="http://ixiao.pw/{{page.next.url}}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+                    </li>
+                    {% endif %} 
                 </ul>
-
             </div>
         </div>
     </div>
