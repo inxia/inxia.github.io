@@ -5,7 +5,16 @@ description: "这里是我的一些个人收藏."
 header-img: "img/y.jpg"
 ---
 
-##网站
+*	[网站](#web)
+	*	[技术](#technology)
+	*	[生活](#life)
+*	[文章](#write)
+*	[视频](#video)
+
+=============
+<h2 id="web">网站</h2>
+
+<h3 id="technology">技术类</h3>
 *	技术类 
 	*	[CSDN](http://www.csdn.net)
 
@@ -21,12 +30,12 @@ header-img: "img/y.jpg"
 	
 	*	[获取电脑hosts](http://serve.netsh.org/pub/gethosts.php)
 
-*	生活类
+<h3 id="life">生活</h3>
 
 	*	[测试智商](http://iqtest.dk/main.swf)
 
 
-##文章
+<h2 id="write">文字</h2>
 *	[滑翔伞与功夫熊猫](http://wufazhuce.com/one/vol.701#articulo)
 
 *	[像空气，像大地](http://wufazhuce.com/one/vol.594#articulo)
@@ -36,25 +45,25 @@ header-img: "img/y.jpg"
 *	[传闻中国政府推动银行弃用 IBM 高端服务器，背后会是什么原因？](http://www.zhihu.com/question/23932487/answer/26176042)
 
 
-##视频
+<h2 id="video">视频</h2>
 
 
 *	[漂亮mm的创意定格动画](http://v.youku.com/v_show/id_XMjc2ODc0MDg4.html)
-<hr>
+* *  *
 <center><embed src="http://player.youku.com/player.php/sid/XMjc2ODc0MDg4/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></center>
-<hr>
-
+* *  *
 
 
 *	[你比你想象中更美丽](http://player.youku.com/player.php/sid/XNTQ0NjM0NTg0/v.swf)
 
 
-<hr>
+* *  *
 <center><embed src="http://player.youku.com/player.php/sid/XNTQ0NjM0NTg0/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"><center>
-<hr>
+* *  *
 
 *	[学校扼杀创造力](http://v.163.com/movie/2006/2/V/E/M7SP3QUET_M7SP3T0VE.html)
 
-<hr>	
+* *  *
 <center><object width="640" height="360"><param name="movie" value="http://swf.ws.126.net/openplayer/v02/-0-2_M7SP3QUET_M7SP3T0VE-vimg1_ws_126_net//image/snapshot_movie/2013/11/F/P/M9DPA9BFP-.swf"></param><param name="allowScriptAccess" value="always"></param><param name="wmode" value="transparent"></param><embed src="http://swf.ws.126.net/openplayer/v02/-0-2_M7SP3QUET_M7SP3T0VE-vimg1_ws_126_net//image/snapshot_movie/2013/11/F/P/M9DPA9BFP-.swf" type="application/x-shockwave-flash" width="640" height="360" allowFullScreen="true" wmode="transparent" allowScriptAccess="always"></embed></object><center>
-<hr>
+*  *  *
+
