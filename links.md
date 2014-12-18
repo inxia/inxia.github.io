@@ -68,7 +68,8 @@ header-img: "img/y.jpg"
 
 <center><embed src="http://player.youku.com/player.php/sid/XNTQ0NjM0NTg0/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"><center/>
 
-* *  *
+
+**********
 
 
 
@@ -76,11 +77,10 @@ header-img: "img/y.jpg"
 
 
 
-* *  *
+*********
 
 
 
 <center><object width="640" height="360"><param name="movie" value="http://swf.ws.126.net/openplayer/v02/-0-2_M7SP3QUET_M7SP3T0VE-vimg1_ws_126_net//image/snapshot_movie/2013/11/F/P/M9DPA9BFP-.swf"></param><param name="allowScriptAccess" value="always"></param><param name="wmode" value="transparent"></param><embed src="http://swf.ws.126.net/openplayer/v02/-0-2_M7SP3QUET_M7SP3T0VE-vimg1_ws_126_net//image/snapshot_movie/2013/11/F/P/M9DPA9BFP-.swf" type="application/x-shockwave-flash" width="640" height="360" allowFullScreen="true" wmode="transparent" allowScriptAccess="always"></embed></object><center/>
 
-*  *  *
 
