@@ -3,6 +3,7 @@ layout: page
 title: "分享"
 description: "这里是我的一些个人收藏."
 header-img: "img/y.jpg"
+
 ---
 
 *	[网站](#web)
@@ -11,7 +12,7 @@ header-img: "img/y.jpg"
 *	[文字](#write)
 *	[视频](#video)
 
-=============
+*********
 
 <h2 id="web">网站</h2>
 
