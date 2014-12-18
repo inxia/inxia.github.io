@@ -1,6 +1,6 @@
 ---
 layout: post
-title: iOS用Storyboard制作简易计算器
+title: Storyboard制作简易计算器
 date: 2014-12-15 12:23:23
 categories:
 - technology
