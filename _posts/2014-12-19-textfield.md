@@ -9,21 +9,22 @@ tags:
 
 ---
 
-#TextField的所有属性和方法
-
 
 初始化textfield并设置位置及大小
   `UITextField *text = [[UITextField alloc]initWithFrame:CGRectMake(20, 20, 130, 30)];`
  
 设置边框样式，只有设置了才会显示边框样式  
   
-      text.borderStyle = UITextBorderStyleRoundedRect;
+<samp>
+text.borderStyle = UITextBorderStyleRoundedRect;
   typedef enum {
     UITextBorderStyleNone, 
     UITextBorderStyleLine,
     UITextBorderStyleBezel,
     UITextBorderStyleRoundedRect  
   } UITextBorderStyle;
+</samp>  
+      
   
 设置输入框的背景颜色，此时设置为白色 如果使用了自定义的背景图片边框会被忽略掉  
    `text.backgroundColor = [UIColor whiteColor];`
@@ -44,13 +45,15 @@ tags:
  
 输入框中是否有个叉号，在什么时候显示，用于一次性删除输入框中的内容
   `text.clearButtonMode = UITextFieldViewModeAlways;`
- 
- <code>typedef enum {
+ <samp> 
+  typedef enum {
     UITextFieldViewModeNever,  重不出现
     UITextFieldViewModeWhileEditing, 编辑时出现
     UITextFieldViewModeUnlessEditing,  除了编辑外都出现
     UITextFieldViewModeAlways   一直出现
-} UITextFieldViewMode; </code>
+} UITextFieldViewMode; 
+</samp>
+
   
  
 //输入框中一开始就有的文字
@@ -62,11 +65,11 @@ tags:
 //是否纠错
   `text.autocorrectionType = UITextAutocorrectionTypeNo;`
  
-<code>typedef enum {
+<samp>typedef enum {
     UITextAutocorrectionTypeDefault, 默认
     UITextAutocorrectionTypeNo,   不自动纠错
     UITextAutocorrectionTypeYes,  自动纠错
-} UITextAutocorrectionType;</code> 
+} UITextAutocorrectionType;</samp>
  
 //再次编辑就清空
   `text.clearsOnBeginEditing = YES;` 
@@ -75,8 +78,8 @@ tags:
   `text.textAlignment = UITextAlignmentLeft;`
  
 //内容的垂直对齐方式 
-<code>UITextField继承自UIControl,此类中有一个属性contentVerticalAlignment
-  text.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;</code> 
+UITextField继承自UIControl,此类中有一个属性contentVerticalAlignment
+  text.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
  
 //设置为YES时文本会自动缩小以适应文本窗口大小.默认是保持原来大小,而让长文本滚动  
   `textFied.adjustsFontSizeToFitWidth = YES;`
