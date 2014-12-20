@@ -25,7 +25,7 @@ iOS开发，目前正在学习中。
 
 邮箱：[{{ site.email }}](mailto:{{ site.email }})
 
-GitHub : [http://github.com/{{ site.github }}](http://github.com/{{ site.github }})
+知乎：[其实](http://www.zhihu.com/people/qi-shi-15-24)
 
 ----
 
