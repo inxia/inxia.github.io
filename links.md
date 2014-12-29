@@ -32,6 +32,8 @@ header-img: "img/y.jpg"
 	
 *	[获取电脑hosts](http://serve.netsh.org/pub/gethosts.php)
 
+*	[免费应用托管平台](http://www.pgyer.com/)
+
 <h3 id="life">生活</h3>
 
 * 	[测试智商](http://iqtest.dk/main.swf)
