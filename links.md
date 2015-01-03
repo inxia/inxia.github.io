@@ -42,8 +42,6 @@ header-img: "img/y.jpg"
 
 *	[草榴](http://woyao.lu/index.html)
 
-*	[Pussy Portraits](http://vrotmnen0gi.livejournal.com/1918417.html?utm_source=twitterfeed&utm_medium=twitter)
-
 *	[Pussy Portraits](https://www.tumblr.com/)
 
 <h2 id="write">文字</h2>
