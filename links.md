@@ -44,7 +44,7 @@ header-img: "img/y.jpg"
 
 *	[Pussy Portraits](http://vrotmnen0gi.livejournal.com/1918417.html?utm_source=twitterfeed&utm_medium=twitter)
 
-*	[Pussy Portraits](http://pussyportraits.tumblr.com/)
+*	[Pussy Portraits](https://www.tumblr.com/)
 
 <h2 id="write">文字</h2>
 *	[滑翔伞与功夫熊猫](http://wufazhuce.com/one/vol.701#articulo)
