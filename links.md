@@ -40,6 +40,11 @@ header-img: "img/y.jpg"
 
 *	[下载电影](http://www.simplecd.me/)
 
+*	[草榴](http://woyao.lu/index.html)
+
+*	[Pussy Portraits](http://vrotmnen0gi.livejournal.com/1918417.html?utm_source=twitterfeed&utm_medium=twitter)
+
+*	[Pussy Portraits](http://pussyportraits.tumblr.com/)
 
 <h2 id="write">文字</h2>
 *	[滑翔伞与功夫熊猫](http://wufazhuce.com/one/vol.701#articulo)
@@ -50,7 +55,7 @@ header-img: "img/y.jpg"
 
 *	[传闻中国政府推动银行弃用 IBM 高端服务器，背后会是什么原因？](http://www.zhihu.com/question/23932487/answer/26176042)
 
-*	[Pussy Portraits](http://pussyportraits.tumblr.com/)
+
 ![](http://ww4.sinaimg.cn/mw690/ae1f5766gw1enqjj9fifjj20go8umhdu.jpg)
 
 <h2 id="video">视频</h2>
