@@ -50,6 +50,7 @@ header-img: "img/y.jpg"
 
 *	[传闻中国政府推动银行弃用 IBM 高端服务器，背后会是什么原因？](http://www.zhihu.com/question/23932487/answer/26176042)
 
+*	[Pussy Portraits](http://pussyportraits.tumblr.com/)
 ![](http://ww4.sinaimg.cn/mw690/ae1f5766gw1enqjj9fifjj20go8umhdu.jpg)
 
 <h2 id="video">视频</h2>
