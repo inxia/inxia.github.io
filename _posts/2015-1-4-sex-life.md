@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 日本作为AV大国，为什么年均性生活却只有48次？
+title: 日本作为AV大国，年均性生活却只有48次？
 date: 2015-1-4 18:11:11
 categories:
 -  life
