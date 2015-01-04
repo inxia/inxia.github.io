@@ -16,8 +16,8 @@ header-img: "img/home-bg.jpg"
         </h3>
         {% endif %}
     </a>
-    <p class="post-meta"> {{ post.author }} 发表于 {{ post.date }}</p>
-    <!-- <p class="post-meta"> {{ post.author }} 发表于 {{ post.date | date: "%B %-d, %Y" }}</p> -->
+    <p class="post-meta"> posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y"}}</p>
+  
 </div>
 <hr>
 {% endfor %}
