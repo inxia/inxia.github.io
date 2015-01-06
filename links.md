@@ -48,6 +48,8 @@ header-img: "img/y.jpg"
 
 *	[美国勾搭网](http://www.hookupcloud.com/)
 
+*	[兔宝宝](http://rabbitqueen.net/)
+
 <h2 id="write">文字</h2>
 *	[滑翔伞与功夫熊猫](http://wufazhuce.com/one/vol.701#articulo)
 
