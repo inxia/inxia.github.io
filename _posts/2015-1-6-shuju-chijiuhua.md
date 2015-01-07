@@ -100,6 +100,7 @@ NSFileManager&NSFileHandle读取文件步骤：
     [fHandle closeFile];
     
 }
+
 ```
 
 ##对象归档
@@ -125,7 +126,8 @@ NSFileManager&NSFileHandle读取文件步骤：
 }
 -(id)initWithCoder:(NSCoder *)aDecoder
 {
-    if(self = [super init]){
+    if(self = [super init])
+    {
         _name = [aDecoder decodeObjectForKey:@"name"];
         _age = [aDecoder decodeIntForKey:@"age"];
         _gender = [aDecoder decodeObjectForKey:@"gender"];
@@ -136,7 +138,8 @@ NSFileManager&NSFileHandle读取文件步骤：
 -(id)copyWithZone:(NSZone *)zone
 {
     Student * copy = [[[self class] allocWithZone:zone]init];
-    if(copy){
+    if(copy)
+    {
         copy.name = [self.name copyWithZone:zone];
         copy.age = self.age;
         copy.gender = [self.gender copyWithZone:zone];
@@ -145,6 +148,7 @@ NSFileManager&NSFileHandle读取文件步骤：
     return copy;
 }
 @end
+
 ```
 
 ####//进行归档步骤：
