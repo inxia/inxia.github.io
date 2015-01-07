@@ -17,6 +17,7 @@ categories:
 
 ####参考代码：
 //获取文件路径
+
 ```
 - (NSString *)getFilePath
 {
@@ -29,6 +30,7 @@ categories:
     return filePath;
 }
 ```
+
 NSFileManager&NSFileHandle读取文件步骤：
 
 //1、获取文件管理器（NSFileManager的类方法defaultManager：）
@@ -41,6 +43,7 @@ NSFileManager&NSFileHandle读取文件步骤：
 
 ####参考代码：
 //读取文件
+
 ```
 - (NSString *)readFile
 {
@@ -58,6 +61,7 @@ NSFileManager&NSFileHandle读取文件步骤：
     return @"";
 }
 ```
+
 ###保存文件步骤
 
 //1、获取文件管理器（NSFileManager的类方法defaultManager：）
@@ -73,6 +77,7 @@ NSFileManager&NSFileHandle读取文件步骤：
 //5、写入完成之后关闭文件（调用NSFileHandle的实例方法closeFile:）
 
 ###参考代码：
+
 ```
 - (IBAction)btnSavePressed:(UIButton *)sender
 {
@@ -96,6 +101,7 @@ NSFileManager&NSFileHandle读取文件步骤：
     
 }
 ```
+
 ##对象归档
 对象归档实现步骤：
 
@@ -106,6 +112,7 @@ NSFileManager&NSFileHandle读取文件步骤：
 *	-(id)initWithCoder:(NSCoder *) decoder;
 
 ####参考代码：
+
 ```
 @implementation Student
 -(void)encodeWithCoder:(NSCoder *)aCoder
