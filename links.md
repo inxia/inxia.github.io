@@ -34,6 +34,10 @@ header-img: "img/y.jpg"
 
 *	[免费应用托管平台](http://www.pgyer.com/)
 
+*	[iOS工程适配64-bit经验](http://www.cocoachina.com/ios/20150106/10848.html)
+
+*	[iOS技术博客](http://devtang.com/)
+
 <h3 id="life">生活</h3>
 
 * 	[测试智商](http://iqtest.dk/main.swf)
