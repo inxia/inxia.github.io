@@ -40,16 +40,6 @@ header-img: "img/y.jpg"
 
 *	[下载电影](http://www.simplecd.me/)
 
-*	[草榴](http://woyao.lu/index.html)
-
-*	[Pussy Portraits](https://www.tumblr.com/)
-
-*	[正确按摩乳房](http://mp.weixin.qq.com/s?__biz=MjMyMzYyNzg2MA==&mid=204455332&idx=1&sn=c9f881e29a7a49f6313cb669ad239408#rd)
-
-*	[美国勾搭网](http://www.hookupcloud.com/)
-
-*	[兔宝宝](http://rabbitqueen.net/)
-
 <h2 id="write">文字</h2>
 *	[滑翔伞与功夫熊猫](http://wufazhuce.com/one/vol.701#articulo)
 
