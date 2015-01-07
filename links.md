@@ -14,7 +14,7 @@ header-img: "img/y.jpg"
 
 *********
 
-<h2 id="web">网站</h2>
+<h2 id="web"></h2>
 
 <h3 id="technology">技术类</h3>
 
@@ -40,7 +40,7 @@ header-img: "img/y.jpg"
 
 *	[下载电影](http://www.simplecd.me/)
 
-<h2 id="write">文字</h2>
+<h2 id="write"></h2>
 *	[滑翔伞与功夫熊猫](http://wufazhuce.com/one/vol.701#articulo)
 
 *	[像空气，像大地](http://wufazhuce.com/one/vol.594#articulo)
@@ -52,7 +52,7 @@ header-img: "img/y.jpg"
 
 ![](http://ww4.sinaimg.cn/mw690/ae1f5766gw1enqjj9fifjj20go8umhdu.jpg)
 
-<h2 id="video">视频</h2>
+<h2 id="video"></h2>
 
 
 ####[漂亮MM的创意定格动画](http://v.youku.com/v_show/id_XMjc2ODc0MDg4.html)
