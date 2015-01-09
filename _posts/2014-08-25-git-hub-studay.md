@@ -28,6 +28,7 @@ tags:
 RT 1 所示 库的名称可以任意，只要不与你其他库名重复就可以，如果勾选创建文件，那么你的库里就自带一个README.md 文件
 
 ##本地操作——终端中操作(以Mac为例)
+
 ###1	配置ssh获取key
 
 *	**cd ~/.ssh**检测本地有没有key,如果成功进入，就把.ssh文件夹删除
@@ -42,6 +43,7 @@ RT 1 所示 库的名称可以任意，只要不与你其他库名重复就可�
 *	选择**Add SSH key**添加一个SSH key
 *	Title随便填，就是一个标记的意思
 *	把刚才复制的key**粘贴到Key里**，并Add key 保存
+
 ###2	工作区
 
 *	**cd Desktop**进入桌面，此处是你创建工作区的位置
@@ -104,7 +106,6 @@ $ git remote rm origin 删除之前的添加信息 (配置文件在 ~/testprojec
 $ git remote add origin git@github.com:用户名/仓库名.git 使用ssh协议连接，添加远程仓库 (此条命令由github提供) 
 
 $ git push -u origin master 再尝试推送到Github test仓库主枝，一般默认为 maste
-
 ```
 
 ##[Git Pages安装和jekyll安装方法](http://beiyuu.com/github-pages/)
