@@ -24,10 +24,10 @@ tags:
 
 首先在工程中新建一个xml文件，作为我们要解析的对象，新建方法是在工程中新建一个Empty的文件，命名为users.xml，然后添加内容：
 
-```
-[html] view plaincopy
-<?xml version="1.0" encoding="utf-8"?>  
-<Users>  
+
+	[html] view plaincopy
+	<?xml version="1.0" encoding="utf-8"?>  
+	<Users>  
     <User id="001"]]>  
         <name>Ryan</name>  
         <age>24</age>  
@@ -36,36 +36,36 @@ tags:
         <name>Tang</name>  
         <age>23</age>  
     </User>  
-</Users>  
-```
+	</Users>  
+
 
 接下来就可以开始解析了，在需要解析的文件中引入头文件：#import "GDataXMLNode.h"
 
 我是新建的一个Empty工程，所以直接在AppDelegate.m中使用，代码如下：
 
-```
-[cpp] view plaincopy
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions  
-{  
+
+	[cpp] view plaincopy
+	- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions  
+	{  
     self.window = [[[UIWindowalloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];  
     // Override point for customization after application launch.  
     self.window.backgroundColor = [UIColorwhiteColor];  
     [self.windowmakeKeyAndVisible];  
       
-   //获取工程目录的xml文件  
+	   //获取工程目录的xml文件  
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"users" ofType:@"xml"];  
     NSData *xmlData = [[NSData alloc] initWithContentsOfFile:filePath];  
       
-   //使用NSData对象初始化  
+	   //使用NSData对象初始化  
     GDataXMLDocument *doc = [[GDataXMLDocument alloc] initWithData:xmlData  options:0error:nil];  
       
-   //获取根节点（Users）  
+      //获取根节点（Users）  
     GDataXMLElement *rootElement = [doc rootElement];  
       
-   //获取根节点下的节点（User）  
+    //获取根节点下的节点（User）  
     NSArray *users = [rootElement elementsForName:@"User"];  
       
-   for (GDataXMLElement *user in users) {  
+    for (GDataXMLElement *user in users) {  
         //User节点的id属性  
         NSString *userId = [[user attributeForName:@"id"] stringValue];  
         NSLog(@"User id is:%@",userId);  
@@ -81,7 +81,7 @@ tags:
     }             
     returnYES;  
 }  
-```
+
 
 编译执行在控制台输出结果如下：![](http://my.csdn.net/uploads/201208/15/1345000995_6872.png)
 
