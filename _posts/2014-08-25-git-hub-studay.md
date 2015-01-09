@@ -94,6 +94,7 @@ RT 1 所示 库的名称可以任意，只要不与你其他库名重复就可�
 
 
 ##本人遇到的问题，解决方法总结
+
 ```
 fatal: unable to access 'https://github.com/ixiao/Notepad.git/: The requested URL returned error: 403`
 此时我们更换http协议为shh协议连接
@@ -105,4 +106,5 @@ $ git remote add origin git@github.com:用户名/仓库名.git 使用ssh协议�
 $ git push -u origin master 再尝试推送到Github test仓库主枝，一般默认为 maste
 
 ```
+
 ##[Git Pages安装和jekyll安装方法](http://beiyuu.com/github-pages/)
