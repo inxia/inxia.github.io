@@ -52,36 +52,33 @@ tags:
     self.window.backgroundColor = [UIColorwhiteColor];  
     [self.windowmakeKeyAndVisible];  
       
-    //获取工程目录的xml文件  
+   //获取工程目录的xml文件  
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"users" ofType:@"xml"];  
     NSData *xmlData = [[NSData alloc] initWithContentsOfFile:filePath];  
       
-    //使用NSData对象初始化  
+   //使用NSData对象初始化  
     GDataXMLDocument *doc = [[GDataXMLDocument alloc] initWithData:xmlData  options:0error:nil];  
       
-    //获取根节点（Users）  
+   //获取根节点（Users）  
     GDataXMLElement *rootElement = [doc rootElement];  
       
-    //获取根节点下的节点（User）  
+   //获取根节点下的节点（User）  
     NSArray *users = [rootElement elementsForName:@"User"];  
       
-    for (GDataXMLElement *user in users) {  
+   for (GDataXMLElement *user in users) {  
         //User节点的id属性  
         NSString *userId = [[user attributeForName:@"id"] stringValue];  
         NSLog(@"User id is:%@",userId);  
-          
-        //获取name节点的值  
+      获取name节点的值  
         GDataXMLElement *nameElement = [[user elementsForName:@"name"] objectAtIndex:0];  
         NSString *name = [nameElement stringValue];  
-        NSLog(@"User name is:%@",name);  
-          
-        //获取age节点的值  
+        NSLog(@"User name is:%@",name);          
+      获取age节点的值  
         GDataXMLElement *ageElement = [[user elementsForName:@"age"] objectAtIndex:0];  
         NSString *age = [ageElement stringValue];  
         NSLog(@"User age is:%@",age);  
         NSLog(@"-------------------");  
-    }      
-          
+    }             
     returnYES;  
 }  
 ```
@@ -97,7 +94,8 @@ GDataXml  相同标签的多个属性，好多文档都没有介绍获取属性�
 在Search Paths中 找到Header Search Paths  将其对应的值修改为：/usr/includebxml2
 在Linking中找到 Other Linker Flags 对应的值改为：-lxml2
 
-```GDataXMLDocument *doc=[[GDataXMLDocument alloc]initWithXMLString:resp*****eBody opti*****:2 error:nil];
+```
+GDataXMLDocument *doc=[[GDataXMLDocument alloc]initWithXMLString:resp*****eBody opti*****:2 error:nil];
     if (doc!=nil) {
 GDataXMLElement *root=[doc rootElement ];
 NSLog(@"--------root's children:--------\n%@", root);
@@ -113,8 +111,6 @@ NSLog(@"--------root's children:--------\n%@", root);
 NSLog(@"%@",[[[root elementsForName:@"link"] objectAtIndex:2]attributes]);
 
 NSLog(@"%@",[[[root elementsForName:@"db:location"]objectAtIndex:0]stringValue]);
-
-    }
 
 
 NSLog(@"returnInforeturnInforeturnInforeturnInforeturnInfo%@",returnInfo);
@@ -135,5 +131,4 @@ NSLog(@"returnInforeturnInforeturnInforeturnInforeturnInfo%@",returnInfo);
 <db:signature></db:signature>
 <db:uid>63522291</db:uid>
 <uri>http://api.douban.com/people/63522291</uri>
-</entry>
-```
+</entry>```
