@@ -94,7 +94,6 @@ GDataXml  相同标签的多个属性，好多文档都没有介绍获取属性�
 在Search Paths中 找到Header Search Paths  将其对应的值修改为：/usr/includebxml2
 在Linking中找到 Other Linker Flags 对应的值改为：-lxml2
 
-```
 GDataXMLDocument *doc=[[GDataXMLDocument alloc]initWithXMLString:resp*****eBody opti*****:2 error:nil];
     if (doc!=nil) {
 GDataXMLElement *root=[doc rootElement ];
@@ -114,23 +113,7 @@ NSLog(@"%@",[[[root elementsForName:@"db:location"]objectAtIndex:0]stringValue])
 
 
 NSLog(@"returnInforeturnInforeturnInforeturnInforeturnInfo%@",returnInfo);
-```
 
-```
-附上xml源文件：
-<?xml version="1.0" encoding="UTF-8"?>
-<entry xmlns="http://www.w3.org/2005/Atom" xmlns:db="http://www.douban.com/xmlns/" xmlns:gd="http://schemas.google.com/g/2005" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:opensearch="http://a9.com/-/spec/opensearchrss/1.0/">
-<id>http://api.douban.com/people/63522291</id>
-<title>wangjianlewo</title>
-<link href="http://api.douban.com/people/63522291" rel="self"/>
-<link href="http://www.douban.com/people/63522291/" rel="alternate"/>
-<link href="http://img3.douban.com/icon/user_normal.jpg" rel="icon"/>
-<content></content>
-<db:attribute name="n_mails">0</db:attribute>
-<db:attribute name="n_notificati*****">0</db:attribute>
-<db:location id="beijing">北京</db:location>
-<db:signature></db:signature>
-<db:uid>63522291</db:uid>
-<uri>http://api.douban.com/people/63522291</uri>
-</entry>
-```
+
+
+		附上xml源文件：<?xml version="1.0" encoding="UTF-8"?><entry xmlns="http://www.w3.org/2005/Atom" xmlns:db="http://www.douban.com/xmlns/" xmlns:gd="http://schemas.google.com/g/2005" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:opensearch="http://a9.com/-/spec/opensearchrss/1.0/"><id>http://api.douban.com/people/63522291</id><title>wangjianlewo</title><link href="http://api.douban.com/people/63522291" rel="self"/><link href="http://www.douban.com/people/63522291/" rel="alternate"/><link href="http://img3.douban.com/icon/user_normal.jpg" rel="icon"/><content></content><db:attribute name="n_mails">0</db:attribute><db:attribute name="n_notificati*****">0</db:attribute><db:location id="beijing">北京</db:location><db:signature></db:signature><db:uid>63522291</db:uid><uri>http://api.douban.com/people/63522291</uri></entry><?xmlversion="1.0" encoding="UTF-8"?><entry xmlns="http://www.w3.org/2005/Atom" xmlns:db="http://www.douban.com/xmlns/" xmlns:gd="http://schemas.google.com/g/2005" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:opensearch="http://a9.com/-/spec/opensearchrss/1.0/"><id>http://api.douban.com/people/63522291</id><title>wangjianlewo</title><link href="http://api.douban.com/people/63522291" rel="self"/><link href="http://www.douban.com/people/63522291/" rel="alternate"/><link href="http://img3.douban.com/icon/user_normal.jpg" rel="icon"/><content></content><db:attribute name="n_mails">0</db:attribute><db:attribute name="n_notificati*****">0</db:attribute><db:location id="beijing">北京</db:location><db:signature></db:signature><db:uid>63522291</db:uid><uri>http://api.douban.com/people/63522291</uri></entry>
