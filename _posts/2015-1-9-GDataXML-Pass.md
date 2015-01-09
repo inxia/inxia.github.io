@@ -116,7 +116,8 @@ NSLog(@"%@",[[[root elementsForName:@"db:location"]objectAtIndex:0]stringValue])
 NSLog(@"returnInforeturnInforeturnInforeturnInforeturnInfo%@",returnInfo);
 ```
 
-```附上xml源文件：
+```
+附上xml源文件：
 <?xml version="1.0" encoding="UTF-8"?>
 <entry xmlns="http://www.w3.org/2005/Atom" xmlns:db="http://www.douban.com/xmlns/" xmlns:gd="http://schemas.google.com/g/2005" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:opensearch="http://a9.com/-/spec/opensearchrss/1.0/">
 <id>http://api.douban.com/people/63522291</id>
@@ -131,4 +132,5 @@ NSLog(@"returnInforeturnInforeturnInforeturnInforeturnInfo%@",returnInfo);
 <db:signature></db:signature>
 <db:uid>63522291</db:uid>
 <uri>http://api.douban.com/people/63522291</uri>
-</entry>```
+</entry>
+```
