@@ -71,15 +71,15 @@ RT 1 所示 库的名称可以任意，只要不与你其他库名重复就可�
 *	**git push -u origin master**发送到远程仓库的master(默认)目录下
 
 ##附录Git常用命令
-{
+
 
 *	git status查看状态，会告诉你当前可以如何操作
 *	git add .添加所有文件到缓存区，注意点前有空格
 *	git clone git@github.com:用户名/库名.git克隆某人的某库库到当前位置
 *	git clone <address：复制代码库到本地；
-*	git add <file ...：添加文件到代码库中；
 *	git rm <file ...：删除代码库的文件；
 *	git add -A 批量操作
+*	git push -f 强制提交
 *	git commit -m <message：提交更改，在修改了文件以后，使用这个命令提交修改。
 *	git pull：从远程同步代码库到本地。
 *	git branch：查看当前分支。带*是当前分支。
@@ -87,15 +87,15 @@ RT 1 所示 库的名称可以任意，只要不与你其他库名重复就可�
 *	git branch -d <branch-name：删除一个分支。
 *	git checkout <branch-name：切换到指定分支。
 *	git log：查看提交记录（即历史的 commit 记录）。
-*	git status：当前修改的状态，是否修改了还没提交，或者那些文件未使用。
-*	git reset <log：恢复到历史版本。
+*	git reset + 版本号：恢复到历史版本。
 
-}
+
 
 
 ##本人遇到的问题，解决方法总结
 
 ```
+
 fatal: unable to access 'https://github.com/ixiao/Notepad.git/: The requested URL returned error: 403`
 此时我们更换http协议为shh协议连接
 
