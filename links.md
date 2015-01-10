@@ -56,7 +56,7 @@ header-img: "img/y.jpg"
 
 <h2 id="music"></h2>
 
-<embed　src="img/fk.mp3"　autostart="true"　loop="true"　hidden="true"></embed>
+[疯狂小秘书](http://7s1rd2.com1.z0.glb.clouddn.com/fkxms.mp3)
 
 <h2 id="video"></h2>
 
