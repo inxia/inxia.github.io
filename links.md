@@ -56,13 +56,7 @@ header-img: "img/y.jpg"
 
 <h2 id="music"></h2>
 
-<object id=nstv classid='CLSID:6BF52A52-394A-11d3-B153-00C04F79FAA6' width=280 height=60 codebase=http://activex.microsoft.com/activex/controls/mplayer/en/nsmp2inf.cab#Version=5,1,52
-,701standby=Loading Microsoft? Windows Media? Player components... type=application/x-oleobject>
-<param name='URL' value='http://7s1rd2.com1.z0.glb.clouddn.com/fkxms.mp3'>
-<PARAM NAME='UIMode' VALUE='full'><PARAM NAME='AutoStart' VALUE='true'>
-<PARAM NAME='Enabled' VALUE='true'>
-<PARAM NAME='enableContextMenu' VALUE='false'>
-</object>
+<embed　src="img/fk.mp3"　autostart="true"　loop="true"　hidden="true"></embed>
 
 <h2 id="video"></h2>
 
