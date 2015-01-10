@@ -54,7 +54,7 @@ header-img: "img/y.jpg"
 
 *	[传闻中国政府推动银行弃用 IBM 高端服务器，背后会是什么原因？](http://www.zhihu.com/question/23932487/answer/26176042)
 
-<h2 id="music"></h2>
+<h2 id="music">铃音</h2>
 
 [疯狂小秘书](http://7s1rd2.com1.z0.glb.clouddn.com/fkxms.mp3)
 
