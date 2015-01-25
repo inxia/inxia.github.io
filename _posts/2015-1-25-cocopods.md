@@ -22,7 +22,6 @@ CocoaPods应该是iOS最常用最有名的类库管理工具了，上述两个�
 
 ```
 sudo gem install cocoapods
-
 ```
 但是，且慢。如果你在天朝，在终端中敲入这个命令之后，会发现半天没有任何反应。原因无他，因为那堵墙阻挡了cocoapods.org。
 
@@ -36,9 +35,9 @@ gem sources -l
 
 ```
 *** CURRENT SOURCES ***
-
 http://ruby.taobao.org/
 ```
+
 这时候，你再次在终端中运行：
 
 ```
