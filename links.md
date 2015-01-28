@@ -38,7 +38,14 @@ header-img: "img/y.jpg"
 *	[iOS工程适配64-bit经验](http://www.cocoachina.com/ios/20150106/10848.html)
 
 *	[iOSk开发与前端对比](http://www.cocoachina.com/webapp/20141223/10729.html)
+
+*	[制作一个可以滑动操作的 Table View Cell](http://blog.jobbole.com/67272/)
+
 *	[iOS技术博客](http://devtang.com/)
+
+*	[域名注册](https://www.gandi.net/domain/)
+
+*	[免费主机和数据库](http://www.pdxx.net/)
 
 <h3 id="life">生活</h3>
 
