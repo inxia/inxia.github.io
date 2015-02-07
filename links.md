@@ -47,6 +47,8 @@ header-img: "img/y.jpg"
 
 *	[免费主机和数据库](http://www.pdxx.net/)
 
+*	[用VPS搭建网站](http://www.freehao123.com/vps-5-wdcp/)
+
 <h3 id="life">生活</h3>
 
 * 	[测试智商](http://iqtest.dk/main.swf)
