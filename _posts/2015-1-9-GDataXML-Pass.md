@@ -52,7 +52,7 @@ tags:
     self.window.backgroundColor = [UIColorwhiteColor];  
     [self.windowmakeKeyAndVisible];  
       
-	   //获取工程目录的xml文件  
+	//获取工程目录的xml文件  
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"users" ofType:@"xml"];  
     NSData *xmlData = [[NSData alloc] initWithContentsOfFile:filePath];  
       
@@ -75,12 +75,12 @@ tags:
         NSLog(@"User name is:%@",name);          
       获取age节点的值  
         GDataXMLElement *ageElement = [[user elementsForName:@"age"] objectAtIndex:0];  
->NSString *age = [ageElement stringValue];  
->NSLog(@"User age is:%@",age);  
->NSLog(@"-------------------");  
->    }             
->    returnYES;  
->}  
+	NSString *age = [ageElement stringValue];  
+	NSLog(@"User age is:%@",age);  
+	NSLog(@"-------------------");  
+    }             
+    returnYES;  
+	}  
 
 
 编译执行在控制台输出结果如下：![](http://my.csdn.net/uploads/201208/15/1345000995_6872.png)
@@ -94,37 +94,32 @@ GDataXml  相同标签的多个属性，好多文档都没有介绍获取属性�
 在Search Paths中 找到Header Search Paths  将其对应的值修改为：/usr/includebxml2
 在Linking中找到 Other Linker Flags 对应的值改为：-lxml2
 
-GDataXMLDocument *doc=[[GDataXMLDocument alloc]initWithXMLString:resp*****eBody opti*****:2 error:nil];
+	GDataXMLDocument *doc=[[GDataXMLDocument alloc]initWithXMLString:resp*****eBody opti*****:2 error:nil];
     if (doc!=nil) {
-GDataXMLElement *root=[doc rootElement ];
-NSLog(@"--------root's children:--------\n%@", root);
+	GDataXMLElement *root=[doc rootElement ];
+	NSLog(@"--------root's children:--------\n%@", root);
 
 //取出根节点的所有孩子节点
 //取出某一个具体节点(body节点)
 
-```
-[returnInfo setObject:[[[root elementsForName:@"db:uid"] objectAtIndex:0] stringValue] forKey:@"snsUserUid"];
-```
-```
-[returnInfo setObject:[[[root elementsForName:@"title"]objectAtIndex:0]stringValue] forKey:@"snsNickName"];  
-```
-```
-[returnInfo setObject:[[[root elementsForName:@"db:location"]objectAtIndex:0]stringValue] forKey:@"snsProvince"]; 
-```
-```
-[returnInfo setObject:[[[[root elementsForName:@"link"] objectAtIndex:2]attributeForName:@"href"] stringValue] forKey:@"snsProfileImageUrl"];
-```
-```
- [returnInfo setObject:@"4" forKey:@"snsLandEntrance"];
-NSLog(@"%@",[[[root elementsForName:@"link"] objectAtIndex:2]attributes]);
-```
-```
-NSLog(@"%@",[[[root elementsForName:@"db:location"]objectAtIndex:0]stringValue]);
-```
-```
-NSLog(@"returnInforeturnInforeturnInforeturnInforeturnInfo%@",returnInfo);
-```
 
-```
-附上xml源文件：<?xml version="1.0" encoding="UTF-8"?><entry xmlns="http://www.w3.org/2005/Atom" xmlns:db="http://www.douban.com/xmlns/" xmlns:gd="http://schemas.google.com/g/2005" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:opensearch="http://a9.com/-/spec/opensearchrss/1.0/"><id>http://api.douban.com/people/63522291</id><title>wangjianlewo</title><link href="http://api.douban.com/people/63522291" rel="self"/><link href="http://www.douban.com/people/63522291/" rel="alternate"/><link href="http://img3.douban.com/icon/user_normal.jpg" rel="icon"/><content></content><db:attribute name="n_mails">0</db:attribute><db:attribute name="n_notificati*****">0</db:attribute><db:location id="beijing">北京</db:location><db:signature></db:signature><db:uid>63522291</db:uid><uri>http://api.douban.com/people/63522291</uri></entry><?xmlversion="1.0" encoding="UTF-8"?><entry xmlns="http://www.w3.org/2005/Atom" xmlns:db="http://www.douban.com/xmlns/" xmlns:gd="http://schemas.google.com/g/2005" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:opensearch="http://a9.com/-/spec/opensearchrss/1.0/"><id>http://api.douban.com/people/63522291</id><title>wangjianlewo</title><link href="http://api.douban.com/people/63522291" rel="self"/><link href="http://www.douban.com/people/63522291/" rel="alternate"/><link href="http://img3.douban.com/icon/user_normal.jpg" rel="icon"/><content></content><db:attribute name="n_mails">0</db:attribute><db:attribute name="n_notificati*****">0</db:attribute><db:location id="beijing">北京</db:location><db:signature></db:signature><db:uid>63522291</db:uid><uri>http://api.douban.com/people/63522291</uri></entry>
-```
+	[returnInfo setObject:[[[root elementsForName:@"db:uid"] objectAtIndex:0] stringValue] forKey:@"snsUserUid"];
+
+	[returnInfo setObject:[[[root elementsForName:@"title"]objectAtIndex:0]stringValue] forKey:@"snsNickName"];  
+
+	[returnInfo setObject:[[[root elementsForName:@"db:location"]objectAtIndex:0]stringValue] forKey:@"snsProvince"]; 
+
+	[returnInfo setObject:[[[[root elementsForName:@"link"] objectAtIndex:2]attributeForName:@"href"] stringValue] forKey:@"snsProfileImageUrl"];
+
+	[returnInfo setObject:@"4" forKey:@"snsLandEntrance"];
+	NSLog(@"%@",[[[root elementsForName:@"link"] objectAtIndex:2]attributes]);
+
+	NSLog(@"%@",[[[root elementsForName:@"db:location"]objectAtIndex:0]stringValue]);
+
+	NSLog(@"returnInforeturnInforeturnInforeturnInforeturnInfo%@",returnInfo);
+
+
+
+附上xml源文件：
+
+	<?xml version="1.0" encoding="UTF-8"?><entry xmlns="http://www.w3.org/2005/Atom" xmlns:db="http://www.douban.com/xmlns/" xmlns:gd="http://schemas.google.com/g/2005" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:opensearch="http://a9.com/-/spec/opensearchrss/1.0/"><id>http://api.douban.com/people/63522291</id><title>wangjianlewo</title><link href="http://api.douban.com/people/63522291" rel="self"/><link href="http://www.douban.com/people/63522291/" rel="alternate"/><link href="http://img3.douban.com/icon/user_normal.jpg" rel="icon"/><content></content><db:attribute name="n_mails">0</db:attribute><db:attribute name="n_notificati*****">0</db:attribute><db:location id="beijing">北京</db:location><db:signature></db:signature><db:uid>63522291</db:uid><uri>http://api.douban.com/people/63522291</uri></entry><?xmlversion="1.0" encoding="UTF-8"?><entry xmlns="http://www.w3.org/2005/Atom" xmlns:db="http://www.douban.com/xmlns/" xmlns:gd="http://schemas.google.com/g/2005" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:opensearch="http://a9.com/-/spec/opensearchrss/1.0/"><id>http://api.douban.com/people/63522291</id><title>wangjianlewo</title><link href="http://api.douban.com/people/63522291" rel="self"/><link href="http://www.douban.com/people/63522291/" rel="alternate"/><link href="http://img3.douban.com/icon/user_normal.jpg" rel="icon"/><content></content><db:attribute name="n_mails">0</db:attribute><db:attribute name="n_notificati*****">0</db:attribute><db:location id="beijing">北京</db:location><db:signature></db:signature><db:uid>63522291</db:uid><uri>http://api.douban.com/people/63522291</uri></entry>
