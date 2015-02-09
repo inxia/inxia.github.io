@@ -55,6 +55,8 @@ header-img: "img/y.jpg"
 
 *	[下载电影](http://www.simplecd.me/)
 
+*	[iOS文字游戏](http://news.d.cn/zt/view-10801.html)
+
 <h2 id="write"></h2>
 *	[滑翔伞与功夫熊猫](http://wufazhuce.com/one/vol.701#articulo)
 
