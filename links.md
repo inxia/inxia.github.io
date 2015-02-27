@@ -49,6 +49,14 @@ header-img: "img/y.jpg"
 
 *	[用VPS搭建网站](http://www.freehao123.com/vps-5-wdcp/)
 
+*	[磁力搜索](http://www.btdigg.info/)
+
+*	[泡饭影视](http://www.chapaofan.com/)
+
+*	[电影fm](http://dianying.fm/)
+
+*	[2tu电影](http://2tu.cc/)
+
 <h3 id="life">生活</h3>
 
 * 	[测试智商](http://iqtest.dk/main.swf)
