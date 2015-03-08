@@ -99,8 +99,8 @@ GDataXml  相同标签的多个属性，好多文档都没有介绍获取属性�
 	GDataXMLElement *root=[doc rootElement ];
 	NSLog(@"--------root's children:--------\n%@", root);
 
-//取出根节点的所有孩子节点
-//取出某一个具体节点(body节点)
+	//取出根节点的所有孩子节点
+	//取出某一个具体节点(body节点)
 
 
 	[returnInfo setObject:[[[root elementsForName:@"db:uid"] objectAtIndex:0] stringValue] forKey:@"snsUserUid"];
