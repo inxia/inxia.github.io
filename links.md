@@ -43,6 +43,8 @@ header-img: "img/y.jpg"
 
 *	[iOS技术博客](http://devtang.com/)
 
+*	[南峰子iOS](http://southpeak.github.io/)
+
 *	[域名注册](https://www.gandi.net/domain/)
 
 *	[免费主机和数据库](http://www.pdxx.net/)
