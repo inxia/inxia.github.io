@@ -17,6 +17,7 @@ tags:
     [NSOperationQueue.mainQueue addOperationWithBlock:^{ self.highlighted = YES; }];
 }
 ```
+
 ```
 - (void) touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event
 {
@@ -24,6 +25,7 @@ tags:
     [self performSelector:@selector(setDefault) withObject:nil afterDelay:0.1];
 }
 ```
+
 ```
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
 {
@@ -31,6 +33,7 @@ tags:
     [self performSelector:@selector(setDefault) withObject:nil afterDelay:0.1];
 }
 ```
+
 ```
 - (void)setDefault
 {
