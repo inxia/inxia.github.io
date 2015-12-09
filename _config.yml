@@ -3,7 +3,7 @@ title:  其实也是
 email: i.yxl@foxmail.com
 description: "hello world!......."
 baseurl: 
-url: "http://ixiao.pw"
+url: "http://2-2.pw"
 twitter_username: iyanxiao
 github_username:  ixiao
 facebook_username:  100008541150823
@@ -15,7 +15,7 @@ permalink: pretty
 paginate: 5
 exclude: ["node_modules"]
 
-name: 小潇
+name: xiao
 qq: 592314686
 duoshuo: ixiao
 weibo: 505501200
