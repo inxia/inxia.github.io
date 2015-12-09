@@ -13,9 +13,9 @@ tags:
 
 	- (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 	{
-    	[super touchesBegan:touches withEvent:event]; 
+    [super touchesBegan:touches withEvent:event]; 
        
-    	[NSOperationQueue.mainQueue 	addOperationWithBlock:^{ self.highlighted = YES; }];
+    [NSOperationQueue.mainQueue 	addOperationWithBlock:^{ self.highlighted = YES; }];
 		}
 
 
